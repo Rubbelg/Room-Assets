@@ -4,7 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acac6a32-14ff-43a7-9bce-44394b126f7d" name="Changes" comment="init" />
+    <list default="true" id="acac6a32-14ff-43a7-9bce-44394b126f7d" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/prisma/migrations/20260121133142_init/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/prisma/migrations/migration_lock.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/prisma/schema.prisma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/plugins/prisma.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose.base.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose.dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compose.prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/mockServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/http.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/roomsApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/header.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/header.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/header.utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/RoomsTable/RoomsTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/context/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/mocks/browser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/mocks/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/mocks/handlers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,21 +76,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Rubbelg"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rubbelg&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rubbelg/Room-Assets.git",
-    "accountId": "b87ff999-0b5c-41b9-9ff7-3f22c6a2a736"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rubbelg/Room-Assets.git&quot;,
+    &quot;accountId&quot;: &quot;b87ff999-0b5c-41b9-9ff7-3f22c6a2a736&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3CZCtmiahwHu9jI3KqLZeoDgsog" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,6 +103,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "/Users/glebburylov/Documents/GitHub/Room-Assets",
     "node.js.detected.package.eslint": "true",
@@ -48,6 +111,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -67,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776583922012</updated>
       <workItem from="1776583923673" duration="3289000" />
+      <workItem from="1776587231668" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
